@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DetectMonitor</string>
+    <string name="detect">Detect</string>
+    <string name="clear">Clear</string>
+    <string name="text_title">裝置偵測</string>
+    <string name="text_bottom">Made By kyL</string>
+    <string name="sw_bg_action">背景執行</string>
+    <string name="setting">Setting</string>
+    <string name="sw_text_close">關閉</string>
+    <string name="sw_text_open">開啟</string>
+    <string name="text_setting">設定</string>
+    <string name="btn_back">返回</string>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="震動次數(初始設定為3)"
+            android:textSize="25dp"
+            tools:ignore="MissingConstraints" />
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/edit_vibrator_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/btn_vibrator_time"
+                android:layout_column="100"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="10dp"
+                android:text="確認"
+                android:textSize="20dp"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="震動毫秒(初始設定為400)"
+            android:textSize="25dp"
+            tools:ignore="MissingConstraints" />
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/edit_vibrator_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/btn_vibrator_start"
+                android:layout_column="100"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="10dp"
+                android:text="確認"
+                android:textSize="20dp"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止毫秒(初始設定為100)"
+            android:textSize="25dp"
+            tools:ignore="MissingConstraints" />
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/edit_vibrator_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/btn_vibrator_stop"
+                android:layout_column="100"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="10dp"
+                android:text="確認"
+                android:textSize="20dp"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TextView
+            android:id="@+id/test_vibrator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#9FE2BF"
+            android:gravity="center"
+            android:text="測試震動"
+            android:textSize="40dp"
+            tools:ignore="MissingConstraints" />
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
